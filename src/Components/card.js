@@ -6,17 +6,17 @@ import { Box, Typography } from "@mui/material";
 export default function MediaCard() {
   const styles = {
     blogimage: {
-      width: 360,
+      width: 390,
       height: 240,
     },
     blog: {
-      width: 392,
+      width: 390,
     },
   };
 
   return (
     <Box
-      className="border-solid border-2 p-2 shadow-none rounded-md"
+      className="border-solid border-2 p-2 shadow-none rounded-md transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg cursor-pointer"
       sx={{ width: styles.blog.width }}
     >
       <CardMedia
@@ -25,7 +25,7 @@ export default function MediaCard() {
         image="https://cdn.mobilesyrup.com/wp-content/uploads/2023/01/Dual-sense-edge-header-scaled.jpg"
         title="green iguana"
       />
-      <Box className="mx-2">
+      <Box>
         <Box className="mt-2">
           <Typography
             component="p"

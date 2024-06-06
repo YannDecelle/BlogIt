@@ -1,10 +1,8 @@
-import './App.css';
-import HomePage from './Pages/Home';
-import ProfilePage from './Pages/Profile';
+import "./App.css";
+import ProfilePage from "./Pages/Profile";
+import AppRouter from "./router";
 function App() {
-  return (
-   <ProfilePage/>
-  );
+  return <AppRouter />;
 }
 
 export default App;
