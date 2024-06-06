@@ -18,7 +18,7 @@ export default function ProfilePage() {
 
   return (
     <>
-      <section className="flex justify-center mt-16">
+      <section className="flex justify-center">
         <div className="flex justify-center bg-gray-100 w-2/3">
           <div className="rounded-md mt-8">
             <div className="flex justify-center items-center">

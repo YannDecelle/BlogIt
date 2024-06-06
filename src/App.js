@@ -1,8 +1,11 @@
 import "./App.css";
-import ProfilePage from "./Pages/Profile";
 import AppRouter from "./router";
 function App() {
-  return <AppRouter />;
+  return (
+    <div className="mt-16 mb-16">
+      <AppRouter />
+    </div>
+  );
 }
 
 export default App;
