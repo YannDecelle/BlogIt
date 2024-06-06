@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "C:\\Users\\Yann\\.amplify\\awscloudformation\\NL6mp3tC8f"
+  },
+  "yann": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "C:\\Users\\Yann\\.amplify\\awscloudformation\\pbpEPdUImB"
+  }
+}
