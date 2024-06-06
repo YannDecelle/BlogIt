@@ -10,7 +10,7 @@ const AppRouter = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/blogpost" element={<Post />} />
+        <Route path="/blog" element={<Post />} />
         <Route path="/new" element={<BlogPostForm />} />
         <Route path="/auth" element={<LoginRegisterPage />} />
       </Routes>

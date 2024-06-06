@@ -2,8 +2,7 @@ import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
+import Link from '@mui/material/Link';
 
 const Header = () => {
     return (
@@ -12,11 +11,10 @@ const Header = () => {
                 <Typography style={{ flexGrow: 1 }}>
                     MetaBlog
                 </Typography>
-                <Button color="inherit">Home</Button>
-                <Button color="inherit">Blog</Button>
-                <Button color="inherit">Single Post</Button>
-                <Button color="inherit">Pages</Button>
-                <Button color="inherit">Contact</Button>
+                <Link color="inherit" underline="none" href="/" style={{ marginRight: '16px' }}>Home</Link>
+                <Link color="inherit" underline="none" href="/blog" style={{ marginRight: '16px' }}>Blog</Link>
+                <Link color="inherit" underline="none" href="/new" style={{ marginRight: '16px' }}>New Post</Link>
+                <Link color="inherit" underline="none" href="/login" style={{ marginRight: '16px' }}>Login</Link>
             </Toolbar>
         </AppBar>
     );
