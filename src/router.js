@@ -3,6 +3,7 @@ import HomePage from "./Home";
 import ProfilePage from "./Pages/Profile";
 import Post from "./Pages/Post";
 import BlogPostForm from "./Pages/Post/new";
+import LoginRegisterPage from "./Pages/Authentification";
 const AppRouter = () => {
   return (
     <Router>
@@ -11,7 +12,7 @@ const AppRouter = () => {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/blogpost" element={<Post />} />
         <Route path="/new" element={<BlogPostForm />} />
-
+        <Route path="/auth" element={<LoginRegisterPage />} />
       </Routes>
     </Router>
   );

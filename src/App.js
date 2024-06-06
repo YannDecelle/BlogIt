@@ -1,5 +1,4 @@
 import "./App.css";
-import ProfilePage from "./Pages/Profile";
 import AppRouter from "./router";
 import Header from "./Components/header";
 import Footer from "./Components/footer";
