@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import MediaCard from "./card";
+import { Link } from "react-router-dom";
 
 export default function Posts() {
   return (
@@ -9,9 +10,11 @@ export default function Posts() {
         sx={{ gap: { xs: 2, md: 3 } }}
       >
         {Array.from(Array(6)).map((_, index) => (
-          <Box key={index} sx={{ flex: "0 1 auto" }}>
-            <MediaCard />
-          </Box>
+          <Link to="/blog" key={index} style={{ textDecoration: 'none' }}>
+            <Box sx={{ flex: "0 1 auto" }}>
+              <MediaCard />
+            </Box>
+          </Link>
         ))}
       </Box>
     </Box>
